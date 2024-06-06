@@ -1,0 +1,33 @@
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_TOKENS = "AUTH_TOKENS";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const AUTH_REGISTER = "AUTH_REGISTER";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+export const CHANGE_STYLE = "CHANGE_STYLE";
+export const CHANGE_BUSSINESS_NAME = "CHANGE_BUSSINESS_NAME";
+export const CHANGE_IMAGE_URI = "CHANGE_IMAGE_URI";
+
+export const SET_CLIENTS = 'SET_CLIENTS';
+export const SET_CLIENT = 'SET_CLIENT';
+export const DELETE_CLIENT = 'DELETE_CLIENT';
+export const CHANGE_LOADING_CLIENT = 'CHANGE_LOADING_CLIENT';
+
+export const SET_JOBS = 'SET_JOBS';
+export const SET_JOB = 'SET_JOB';
+export const SET_INVOICE = 'SET_INVOICE';
+export const SET_CHARGES = 'SET_CHARGES';
+export const CHANGE_LOADING_JOB = 'CHANGE_LOADING_JOB';
+
+export const SET_ITEMS = 'SET_ITEMS';
+export const SET_USED_ITEMS = 'SET_USED_ITEMS';
+export const SET_ITEM = 'SET_ITEM';
+export const CHANGE_LOADING_ITEM = 'CHANGE_LOADING_ITEM';
+
+export const SET_SPENTS = 'SET_SPENTS';
+export const SET_SPENT = 'SET_SPENT';
+export const CHANGE_LOADING_SPENT = 'CHANGE_LOADING_SPENT';
+export const ACTION_SUCCESS = 'ACTION_SUCCESS';
+
+export const CHANGE_LOADING = 'CHANGE_LOADING';
+export const CHANGE_ERROR = 'CHANGE_ERROR';

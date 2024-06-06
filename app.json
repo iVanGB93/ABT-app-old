@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Advance Business Tools",
+    "slug": "advance-business-tools",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.advancebusinesstools"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.advancebusinesstools"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you save information."
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "QbaRed",
+          "project": "abt"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "935f8c72-d4c7-43b8-b326-add7755e4c88"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/935f8c72-d4c7-43b8-b326-add7755e4c88"
+    }
+  }
+}
