@@ -1,7 +1,7 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 playstorekey.json
-settings.env
+.env
 
 # dependencies
 node_modules/

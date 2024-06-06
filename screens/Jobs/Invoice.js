@@ -85,7 +85,7 @@ export default function Invoice({navigation}) {
     `;
 
     const sendEmailWithAttachment = async () => {
-        const apiKey = (SENDGRID_API_KEY);
+        const apiKey = SENDGRID_API_KEY;
         const htmlContent = generateHTML();
         const { uri } = await Print.printToFileAsync({ html: htmlContent });
         const attachmentBase64 = await FileSystem.readAsStringAsync(uri, {
